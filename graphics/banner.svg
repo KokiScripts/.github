@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="KScripts">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070A1A"/>
+      <stop offset="0.6" stop-color="#05060F"/>
+      <stop offset="1" stop-color="#0A1330"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#1262F2" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#1262F2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1262F2" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#1262F2"/>
+      <stop offset="1" stop-color="#1262F2" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1262F2" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <g transform="translate(110 42) scale(0.55) translate(-380 -315)">
+    <polygon fill="#1262F2" points="450,315 570,315 556,467 742,315 895,315 380,737 430,345"/>
+    <polygon fill="#1262F2" points="687,523 876,742 695,742 581,605"/>
+    <polygon fill="#FFFFFF" points="553,632 585,673 500,743 420,742"/>
+  </g>
+
+  <text x="400" y="158" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="86" font-weight="700" fill="#FFFFFF" letter-spacing="-1"><tspan fill="#1262F2">K</tspan>Scripts</text>
+  <text x="404" y="206" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#8FA3C8" letter-spacing="3">OPEN SOURCE SCRIPTS &amp; TOOLS</text>
+
+  <rect x="404" y="236" width="520" height="2" fill="url(#line)"/>
+</svg>
