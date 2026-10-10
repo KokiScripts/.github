@@ -30,7 +30,7 @@
   </g>
 
   <text x="400" y="158" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="86" font-weight="700" fill="#FFFFFF" letter-spacing="-1"><tspan fill="#1262F2">K</tspan>Scripts</text>
-  <text x="404" y="206" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#8FA3C8" letter-spacing="3">OPEN SOURCE SCRIPTS &amp; TOOLS</text>
+  <text x="404" y="206" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#8FA3C8" letter-spacing="3">SCRIPTS &amp; TOOLS</text>
 
   <rect x="404" y="236" width="520" height="2" fill="url(#line)"/>
 </svg>
